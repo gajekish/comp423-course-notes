@@ -122,7 +122,7 @@ go mod init go-dev-container
 Make a new file in your ```go-dev-container``` directory and name it ```main.go```.
 ### Step 2: Write your First Go Program
 In the ```main.go``` file, write the following code to create a basic program that prints "Hello COMP423."
-```bash
+```go
 package main
 
 import "fmt"
