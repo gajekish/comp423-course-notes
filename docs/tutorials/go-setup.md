@@ -49,7 +49,7 @@ Now that the Git repository is set up, let’s connect it to a remote hosting pl
 1. Log in to your GitHub account and go to the [Create a New Repository](https://github.com/new) section.
 2. Name this new repository ```go-dev-container```
 3. Add whatever description you want and have the visibility set to public.
-4. Make sure to *not* to initialize the repository with a README, .gitignore, or license.
+4. Make sure to **not** to initialize the repository with a README, .gitignore, or license.
 5. Lastly, click **Create Repository** 
 ### Step 3: Link your Local Repository to GitHub
 1. Add the GitHub repository as a remote:
@@ -105,6 +105,8 @@ The ```devcontainer.json``` file defines the configuration for your development 
 }
 ```
 
+!!! Note "golang.go VS Code Extension"
+    The Go extension for VS Code by Google makes Go development easier with features like syntax highlighting, code completion, debugging, linting, formatting, and test support. It also manages Go modules and provides live error checks for a smooth coding experience.
 ### Step 2: Reopen the Project in a VSCode Dev Container
 Reopen the project in the container by pressing ```Ctrl+Shift+P``` (or ```Cmd+Shift+P``` on Mac), typing "Dev Containers: Reopen in Container," and selecting the option. This may take a few minutes while the image is downloaded and the requirements are installed.
 
