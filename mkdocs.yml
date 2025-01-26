@@ -3,8 +3,8 @@ theme:
   name: material
   
 markdown_extensions:
-    - admonition
-    - pymdownx.highlight:
+  - admonition
+  - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
