@@ -90,7 +90,7 @@ The ```devcontainer.json``` file defines the configuration for your development 
 * ```image```: The Docker image to use, in this case, the latest version of a Go environment.
 * ```customizations```: Adds useful configurations to VS Code, like installing the Go extension. When you search for VSCode extensions on the marketplace, you will find the string identifier of each extension in its sidebar. Adding extensions here ensures other developers on your project have them installed in their dev containers automatically.
 * ```postCreateCommand```: This specifies a command to execute after the development container is created. In this instance, it initializes a new Go module and tidies up dependencies by running ```go mod init``` and ```go mod tidy```.
-```bash
+```json
 {
     "name": "Go Dev Container",
     "image": "mcr.microsoft.com/vscode/devcontainers/go:latest",
