@@ -11,8 +11,7 @@ After finishing this tutorial, you will:
 
 * Set up a basic Go Development Container in VS Code to streamline development.
 * Initialize and configure a GitHub repository for your Go project.
-* Run a simple "Hello World" program in Go within the development container.
-* Learn how to leverage GitHub Actions for CI/CD to deploy your project.
+* Run a simple "Hello COMP423" program in Go within the development container.
 * Gain practical experience with tools and practices commonly used in Go development and open-source projects.
 
 ## **Prerequisites**
